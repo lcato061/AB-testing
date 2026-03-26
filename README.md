@@ -22,8 +22,8 @@ These projects demonstrate my ability to:
 
 ---
 
-### 2. Homepage Redesign Experiment A/B/C/D Test
-**Goal:** Determine which of the 4 landing page variants increased conversion rate.
+### 2. Landing Page Redesign Experiment A/B/C/D Test
+**Goal:** Determine which of the 4 landing page variants increased mean time spend on page.
 
 - Result: No statistically significant difference
 - Decision: Any choice of landing page will suffice. 
