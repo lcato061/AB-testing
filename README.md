@@ -43,8 +43,8 @@ These projects demonstrate my ability to:
 
 ## 🚀 Tools Used
 
-- Python (pandas, scipy, matplotlib)
-- Jupyter / Google Colab
+- Python (pandas, scipy, numpy, stats)
+- Google Colab
 
 ---
 
