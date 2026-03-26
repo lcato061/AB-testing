@@ -1,66 +1,52 @@
-# A/B Testing a Homepage Redesign: When Metrics Conflict
+# A/B Testing Portfolio
 
 ## 📌 Overview
-This project analyzes an A/B test evaluating a new homepage design for a streaming platform.
+This repository contains a collection of A/B testing projects where I analyze experiments, apply statistical testing, and make product recommendations.
 
-The experiment produced conflicting results:
-- CTR increased significantly
-- Time spent decreased significantly
-- Subscription conversion showed no significant change
-
-The goal is to determine whether the new design should be shipped.
+These projects demonstrate my ability to:
+- Design and analyze experiments
+- Apply statistical hypothesis testing
+- Translate results into business decisions
 
 ---
 
-## 🎯 Business Problem
-Should the company launch a new homepage layout that increases clicks but may reduce user engagement depth?
+## 📊 Projects
+
+### 1. Button Color A/B Test
+**Goal:** Determine whether changing a button from gray to green increases conversion rate.
+
+- Result: No statistically significant difference
+- Decision: Do not implement the new button
+
+👉 [View Notebook](./A_B_test_button_color.ipynb)
 
 ---
 
-## 📊 Experiment Results
-
-| Metric | Control | Treatment | Change | p-value |
-|--------|--------|----------|--------|--------|
-| CTR | 10.0% | 11.2% | +1.2% | 0.01 |
-| Time Spent | 22 min | 20 min | -2 min | 0.03 |
-| Conversion | 4.5% | 4.4% | -0.1% | 0.40 |
+### 2. Homepage Redesign Experiment A/B/C/D Test
+- Evaluates multiple variants
 
 ---
 
-## 🔍 Key Insights
+## 🧠 Key Skills Demonstrated
 
-- CTR increased → more user clicks
-- Time spent decreased → potential drop in engagement depth
-- Conversion unchanged → no observable business impact
-- Metrics conflict, making the decision non-trivial
-
----
-
-## ✅ Final Recommendation
-
-Do **not ship** the new homepage yet.
-
-While CTR improved, it is a leading metric and does not guarantee meaningful engagement. The decrease in time spent introduces risk of reduced user engagement, and no improvement is observed in conversion.
-
-The potential downside outweighs the observed benefit.
+- Hypothesis testing (z-test, ANOVA)
+- Data cleaning (handling duplicates, missing values)
+- Experiment design and analysis
+- Business decision-making under uncertainty
 
 ---
 
-## 🚀 Next Steps
+## 🚀 Tools Used
 
-- Run follow-up experiment measuring:
-  - Retention (7-day, 30-day)
-  - Total watch time
-- Segment users (new vs returning)
-- Analyze full engagement funnel
+- Python (pandas, scipy, matplotlib)
+- Jupyter / Google Colab
 
 ---
 
-## 🧠 Key Learnings
+## 📈 Key Takeaways
 
-- Statistical significance ≠ business value
-- Leading metrics can be misleading
-- Conflicting metrics require tradeoff analysis
-- Clear decision-making under uncertainty is critical
+- Statistical significance is essential for decision-making
+- Product metrics must be interpreted in context
+- Data-driven decisions require balancing tradeoffs
 
----# AB-testing
+---
