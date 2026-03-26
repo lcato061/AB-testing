@@ -23,8 +23,13 @@ These projects demonstrate my ability to:
 ---
 
 ### 2. Homepage Redesign Experiment A/B/C/D Test
-- Evaluates multiple variants
+**Goal:** Determine which of the 4 landing page variants increased conversion rate.
 
+- Result: No statistically significant difference
+- Decision: Any choice of landing page will suffice. 
+
+👉 [View Notebook](./A_B_C_D_landing_page.ipynb)
+  
 ---
 
 ## 🧠 Key Skills Demonstrated
