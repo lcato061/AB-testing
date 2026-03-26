@@ -43,7 +43,7 @@ These projects demonstrate my ability to:
 
 ## 🚀 Tools Used
 
-- Python (pandas, scipy, numpy, stats)
+- Python (pandas, scipy, numpy, statsmodels)
 - Google Colab
 
 ---
